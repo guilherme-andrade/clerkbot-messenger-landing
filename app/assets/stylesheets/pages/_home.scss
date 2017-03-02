@@ -18,15 +18,15 @@
 }
 
 #wrapper1 {
-  background-color: #F5F5F5;
+  background-color: white;
 }
 
 #wrapper2 {
-  background-color: #1c1c1c;
+  background-color: $wrapper;
   min-height: 200px;
   padding: 20px 0 40px 0;
   p, h1 {
-    color: #F5F5F5;
+    color: white;
   }
   p {
     font-size: 22px;
@@ -34,10 +34,24 @@
   }
 }
 
+#wrapper3 {
+  background-color: white;
+  color: $wrapper;
+  .container {
+    padding: 0px 100px;
+  }
+}
+
 .home-phone {
-  height: 400px;
+  height: 385px;
+
 }
 
 #phonerow {
   height: 400px;
+}
+
+.pms-logo {
+  height:150px;
+  align-content: center;
 }

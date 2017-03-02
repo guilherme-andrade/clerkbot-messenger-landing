@@ -27,9 +27,10 @@
     </script>
   </head>
   <body>
-    <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
-    <%= yield %>
+
+        <%= render 'shared/navbar' %>
+        <%= yield %>
     <%= javascript_include_tag 'application' %>
   </body>
 </html>

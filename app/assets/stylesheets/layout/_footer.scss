@@ -1,1 +1,21 @@
 // Your footer style
+
+.footer-social-links-wrapper {
+  transition: all 0.3s ease;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: $wrapper;
+}
+
+.footer-social-links-container {
+  padding: 20px 15px;
+  width: 100%;
+}
+
+.footer-social-links-container a {
+  float: right;
+  margin: 0px 15px 20px 15px;
+  font-size: 25px;
+  color: white;
+}
