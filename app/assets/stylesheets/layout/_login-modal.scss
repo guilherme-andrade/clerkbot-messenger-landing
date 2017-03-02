@@ -1,0 +1,52 @@
+.modal {
+   position: absolute;
+   top: 150px;
+   bottom: 0;
+   left: 0;
+   z-index: 10040;
+   overflow: auto;
+   overflow-y: auto;
+}
+
+.modal-logo {
+  width: 30px;
+}
+
+.login-form {
+  color: white;
+}
+
+.modal-title {
+  color: white;
+}
+
+.btn-login {
+  width: 100%;
+  border: none;
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-facebook {
+  background-color: $facebook;
+}
+
+.btn-googleoauth2 {
+  background-color: $google;
+}
+
+.login-links {
+  color: white;
+  font-weight: 200;
+  font-size: 14px;
+  &:hover {
+    color: white;
+  }
+}
+
+.modal-content {
+  background-color: rgba(black, 0.8);
+}
+
