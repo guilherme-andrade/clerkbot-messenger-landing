@@ -7,13 +7,19 @@
   width: 100%;
   overflow: hidden;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("banner2.jpeg");;
   z-index: -1;
   align-items: center;
   justify-content: center;
   color: white;
 }
 
+div.home-banner {
+  background: rgba(black, 0.5);
+}
+
+img.home-banner {
+  position: fixed;
+}
 
 .home-banner-content {
   height: calc(600px - 20px);
