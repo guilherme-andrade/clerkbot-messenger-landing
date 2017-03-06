@@ -3,24 +3,26 @@
   top: 0px;
   min-height: 600px;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  display: flex;
-  width: 100%;
-  overflow: hidden;
+
   background-size: cover;
   z-index: -1;
   align-items: center;
   justify-content: center;
   color: white;
-  overflow: scroll;
 }
 
 div.home-banner {
   background: rgba(black, 0.5);
   padding-top: 50px;
+  display: flex;
+  width: 100%;
 }
 
 img.home-banner {
   position: fixed;
+  display: block;
+  overflow: hidden;
+  min-width: 100%;
 }
 
 .home-banner-content {
