@@ -11,13 +11,17 @@
       <p class="hidden-xs">Reply to all leads instantaneously with a conversational chatbot. It only takes minutes to build.</p>
     </div>
     <div class="home-banner-content-links text-center">
-      <a href="https://www.messenger.com/t/156947721487134/">
-        <%= image_tag "messenger.png", class: "home-banner-messenger-link overflow" %> <br>
-        Test now!
-      </a>
+
     </div>
     <div class="home-banner-call-to-action margined-v">
-      <%= link_to t(".top_call_to_action", default: "Build yours"), "#", class: "home-banner-call-to-action-btn btn" %>
+    <ul class="list-inline">
+      <li>
+        <a href="https://www.messenger.com/t/156947721487134/">
+          <%= image_tag "messenger.png", class: "home-banner-messenger-link overflow" %> <br>
+        </a>
+      </li>
+      <li><%= link_to t(".top_call_to_action", default: "Test Now!"), "#", class: "home-banner-call-to-action-btn btn" %></li>
+    </ul>
     </div>
   </div>
 </div>

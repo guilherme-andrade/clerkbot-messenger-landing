@@ -1,7 +1,14 @@
 <p>Or login using:</p>
 <% if devise_mapping.omniauthable? %>
   <% resource_class.omniauth_providers.each do |provider| %>
-    <%= link_to "",  omniauth_authorize_path(resource_name, provider), class: "btn btn-login btn-#{OmniAuth::Utils.camelize(provider).downcase}" %><br />
+    <%= link_to "",  omniauth_authorize_path(resource_name, provider), class: "btn btn-login btn-#{OmniAuth::Utils.camelize(provider).downcase} fa fa-#{
+        case OmniAuth::Utils.camelize(provider).downcase
+        when 'facebook'
+          'facebook'
+        else
+          'google'
+        end
+          }" %><br />
   <% end %>
 <% end %>
 
